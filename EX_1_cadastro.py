@@ -25,3 +25,6 @@ senha = int(input("Digite a sua senha :"))
 print(" | ------------------------------ |")
 print("| ---------- CADASTRO ---------- |")
 print("| ------------------------------ |")
+
+print(f"Seja bem vindo {nome}")
+print(f"Seu email é:{email}")

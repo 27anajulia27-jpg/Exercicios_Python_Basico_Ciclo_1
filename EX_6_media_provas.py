@@ -14,10 +14,25 @@
 # | Nota da segunda prova: 7
 # | Nota da terceira prova: 8.5
 # | ______________________________ |
+
 # | Aluno: Fulano 
 # | Média: 8.43
 # | Aluno aprovado
 # | ______________________________ |
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+print("SISTEMA DE PROVAS")
+nome = input("Nome do aluno:")
 
+nota1 = float(input("Nota da primeira prova:"))
+nota2 = float(input("Nota da segunda prova:"))
+nota3 = float*(input("Nota da terceira prova:"))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print("\nAluno:", round(media,2))
+
+if media >= 7:
+        print("Aluno aprovado")
+else:
+        print("Aluno reprovado")

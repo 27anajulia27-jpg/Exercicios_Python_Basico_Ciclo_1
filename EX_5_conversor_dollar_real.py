@@ -11,3 +11,9 @@
 
 
 
+contacao = float(input("Digite a contação do dollar:"))
+dollar = float(input("digite o valor em dallor a ser trocado pra real:"))
+
+real = contacao * dollar
+
+print("O valor em reais é :")

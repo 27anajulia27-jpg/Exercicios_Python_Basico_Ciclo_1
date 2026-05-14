@@ -10,3 +10,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("ALUGUEL DE CARRO")
+
+km = float(input("Quantos KM o carro andou?"))
+dias = float(input("Quantos dias o carro foi alugado?"))
+
+preco =(dias * 60)+ (km * 0.14)
+
+print(F"O preço e pagar é R${preco:}")
